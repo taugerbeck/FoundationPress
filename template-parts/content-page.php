@@ -10,8 +10,9 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header>
-		<h1 class="entry-title"><?php the_title(); ?></h1>
+	<header class="row title-area">
+		<div class="large-4 columns"><h1><img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/hundatwork/logo.png" /></h1></div>
+		<div class="large-8 columns"><h3 class="entry-title"><?php the_title(); ?></h3></div>
 	</header>
 	<div class="entry-content">
 		<?php the_content(); ?>
