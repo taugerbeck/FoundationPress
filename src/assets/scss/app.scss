@@ -6,7 +6,7 @@
 @import 'motion-ui';
 
 @include foundation-global-styles;
-//@include foundation-grid;
+@include foundation-grid;
 //@include foundation-flex-grid;
 
 @include foundation-xy-grid-classes;
@@ -20,7 +20,7 @@
 @include foundation-breadcrumbs;
 @include foundation-button-group;
 @include foundation-callout;
-@include foundation-card;
+//@include foundation-card;
 @include foundation-close-button;
 @include foundation-menu;
 @include foundation-menu-icon;
@@ -72,13 +72,13 @@
 
 // Components
 @import "components/buttons";
-@import "components/cards";
+//@import "components/cards";
 @import "components/featured-image";
 @import "components/dividers";
 @import "components/links";
 
 // Templates
-@import "templates/front";
-@import "templates/kitchen-sink";
+//@import "templates/front";
+//@import "templates/kitchen-sink";
 
 @import "templates/hundatwork";
