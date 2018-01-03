@@ -38,11 +38,11 @@
 		</div>
 		<div class="large-6 columns">
 			<ul class="menu align-right">
+				<li><div class="g-plusone" data-size="medium"></div></li>
+				<li><a href="https://plus.google.com/115848055525284702798" title="Finden Sie uns auf Google+" style="text-decoration: none;" rel="publisher"><img src="https://ssl.gstatic.com/images/icons/gplus-16.png" width="16" height="16" style="border: 0;"></a></li>
 				<li><a href="/">Home</a></li>
 				<li><a href="/kontakt">Kontakt</a></li>
 				<li><a href="/impressum">Impressum</a></li>
-				<li><div class="g-plusone" data-size="medium"></div></li>
-				<li><a href="https://plus.google.com/115848055525284702798" title="Finden Sie uns auf Google+" style="text-decoration: none;" rel="publisher"><img src="https://ssl.gstatic.com/images/icons/gplus-16.png" width="16" height="16" style="border: 0;"></a></li>
 			</ul>
 		</div>
 	</div>
