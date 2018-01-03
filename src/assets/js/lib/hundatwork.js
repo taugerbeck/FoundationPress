@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 function UnCryptMailto(s) {
     var n = 0;
     var r = "";
@@ -11,9 +13,14 @@ function UnCryptMailto(s) {
     return r;
 }
 
-function linkTo_UnCryptMailto(s) {
-    location.href = UnCryptMailto(s);
-}
+
+$(function() {
+  $("a[data-mailto]").on("click", function (event) {
+    var data = $(this).data("mailto");
+    location.href = UnCryptMailto(data);
+    event.preventDefault();
+  });
+});
 
 window.___gcfg = {lang: 'de'};
 

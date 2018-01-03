@@ -15,7 +15,7 @@
 		<section class="large-4 columns">
 			<h6><strong>Kontakt</strong></h6>
 			<p>
-				<a href="javascript:linkTo_UnCryptMailto(\'nbjmup;jogpAivoebuxpsl/ef\');">info@<span class="visuallyhidden"> {at} </span>hundatwork.de</a><br />
+				<a href="#" data-mailto="nbjmup;jogpAivoebuxpsl/ef">info@<span class="visuallyhidden"> {at} </span>hundatwork.de</a><br />
 				www.hundatwork.de
 			</p>
 		</section>
