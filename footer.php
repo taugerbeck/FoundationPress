@@ -9,28 +9,30 @@
  */
 ?>
 
-<div class="footer-container">
-	<footer class="footer">
-		<?php dynamic_sidebar( 'footer-widgets' ); ?>
-		<section class="large-4 columns">
-			<h6><strong>Kontakt</strong></h6>
-			<p>
-				<a href="#" data-mailto="nbjmup;jogpAivoebuxpsl/ef">info@<span class="visuallyhidden"> {at} </span>hundatwork.de</a><br />
-				www.hundatwork.de
-			</p>
-		</section>
-		<section class="large-5 columns">
-			<h6>&nbsp;</h6>
-			<p>
-				Telefon: 0711 - 16 12 68 68<br />
-				Mobil: 0178 - 1 89 49 39
-			</p>
-		</section>
-		<section class="large-3 columns">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/hundatwork/sky.png" />
-		</section>
-	</footer>
-</div>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-grid">
+            <?php dynamic_sidebar( 'footer-widgets' ); ?>
+            <section class="large-4 columns">
+                <h6><strong>Kontakt</strong></h6>
+                <p>
+                    <a href="#" data-mailto="nbjmup;jogpAivoebuxpsl/ef">info@<span class="visuallyhidden"> {at} </span>hundatwork.de</a><br />
+                    www.hundatwork.de
+                </p>
+            </section>
+            <section class="large-5 columns">
+                <h6>&nbsp;</h6>
+                <p>
+                    Telefon: 0711 - 16 12 68 68<br />
+                    Mobil: 0178 - 1 89 49 39
+                </p>
+            </section>
+            <section class="large-3 columns">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/hundatwork/sky.png" />
+            </section>
+        </div>
+    </div>
+</footer>
 <div id="copyright">
 	<div class="row">
 		<div class="large-6 columns">
