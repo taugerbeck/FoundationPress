@@ -10,9 +10,6 @@
   }
 }
 
-header.title-area h3 {
-  margin-top: 14px;
-}
 .footnote {
   font-size: 80%;
   list-style: none;
@@ -68,6 +65,14 @@ article .entry-content {
   }
 }
 
+article.page {
+  header.title-area {
+    h3 {
+      margin-top: 14px;
+    }
+  }
+}
+
 article.post {
   header {
     margin-top: 18px;
@@ -77,11 +82,8 @@ article.post {
   }
 }
 
-.footer-container {
-  background: #eee;
-}
-
 .footer {
+  background: #eee;
   img {
     padding-top: 18px;
     padding-left: 24px;
@@ -89,6 +91,9 @@ article.post {
   a {
     color: #222;
   }
+}
+.footer-container {
+  border-top: none;
 }
 
 #copyright {

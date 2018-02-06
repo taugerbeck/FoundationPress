@@ -10,9 +10,12 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="row title-area">
-		<div class="large-4 columns"><h1><img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/hundatwork/logo.png" /></h1></div>
-		<div class="large-8 columns"><h3 class="entry-title"><?php the_title(); ?></h3></div>
+	<header class="grid-x title-area hide-for-small-only">
+		<div class="medium-5 large-4 cell"><h1><img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/hundatwork/logo.png" /></h1></div>
+		<div class="medium-7 large-8 cell"><h3 class="entry-title"><?php the_title(); ?></h3></div>
+	</header>
+	<header class="title-area show-for-small-only">
+		<h1 class="entry-title"><?php the_title(); ?></h1>
 	</header>
 	<div class="entry-content">
 		<?php the_content(); ?>
