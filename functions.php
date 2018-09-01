@@ -53,3 +53,6 @@ require_once( 'library/responsive-images.php' );
 
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
 // require_once( 'library/class-foundationpress-protocol-relative-theme-assets.php' );
+
+// remove WP 4.9+ dns-prefetch nonsense
+remove_action( 'wp_head', 'wp_resource_hints', 2 );
