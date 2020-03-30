@@ -39,7 +39,6 @@
 		</div>
 		<div class="large-6 cell">
 			<ul class="menu align-right">
-				<li><a href="https://plus.google.com/115848055525284702798" title="Finden Sie uns auf Google+" style="text-decoration: none;" rel="publisher"><img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/hundatwork/gplus-16.png" width="16" height="16" style="border: 0;"></a></li>
 				<li><a href="/">Home</a></li>
 				<li><a href="/kontakt">Kontakt</a></li>
 				<li><a href="/impressum">Impressum</a></li>
